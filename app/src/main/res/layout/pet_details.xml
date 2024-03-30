@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/petDetailImage"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:contentDescription="@string/pet_image"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/petDetailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя питомца"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/material_dynamic_primary10"/>
+
+    <TextView
+        android:id="@+id/petDetailBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Происхождение"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/material_dynamic_primary10"/>
+
+    <TextView
+        android:id="@+id/petDetailDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пол | Возраст"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/material_dynamic_primary10"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/petDetailPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/material_dynamic_primary10"/>
+
+    <Button
+        android:id="@+id/adoptButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adoption"
+        style="@style/ShapeAppearanceOverlay.Material3.Button"/>
+
+</LinearLayout>

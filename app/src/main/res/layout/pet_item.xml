@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/myrect">
+
+    <ImageView
+        android:id="@+id/petImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/pet_image"
+        android:layout_marginEnd="16dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/petName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя питомца"
+            android:textSize="18sp"
+            android:layout_marginBottom="4dp"
+            style="@style/MaterialAlertDialog.Material3.Title.Text"
+            android:textColor="@color/material_dynamic_primary10"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/petLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Местоположение"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/material_dynamic_secondary60"/>
+
+        <TextView
+            android:id="@+id/petOrigin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Происхождение"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/material_dynamic_primary10"/>
+
+        <TextView
+            android:id="@+id/petSexAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пол | Возраст"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/material_dynamic_primary10"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/petCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Цена"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/material_dynamic_primary10"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AdoptionPet</string>
+    <string name="recommended">Recommended</string>
+    <string name="image_with_discount">Image with discount</string>
+    <string name="search">Search...</string>
+    <string name="burger_menu">burger_menu</string>
+    <string name="sorting_icon">sorting icon</string>
+    <string name="pet_image">pet image</string>
+</resources>
